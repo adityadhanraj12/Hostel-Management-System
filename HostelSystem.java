@@ -7,7 +7,7 @@ public class HostelSystem {
 
     static final String URL = "jdbc:mysql://localhost:3306/HostelDB";
     static final String USER = "root";
-    static final String PASSWORD = "Joel@2005"; // Change if needed
+    static final String PASSWORD = "Aditya@2003"; // Change if needed
 
     public static void main(String[] args) {
         try (Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
@@ -183,3 +183,4 @@ public class HostelSystem {
         }
     }
 }
+
